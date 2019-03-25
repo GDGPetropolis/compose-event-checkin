@@ -14,6 +14,12 @@ services:
       DATABASE_HOST: ${DOCKER_IP}
       DATABASE_PORT: ${EXTERNAL_DATABASE_PORT}
 
+  frontend:
+    image: ${FRONTEND_IMAGE}
+
+    ports:
+      - "${EXTERNAL_FRONTEND_PORT}:${INTERNAL_FRONTEND_PORT}"
+
   database:
     image: ${DATABASE_IMAGE}
 
