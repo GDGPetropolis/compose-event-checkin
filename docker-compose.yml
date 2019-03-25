@@ -31,3 +31,9 @@ services:
       MYSQL_DATABASE: ${DATABASE}
       MYSQL_USER: ${DATABASE_USER}
       MYSQL_PASSWORD: ${DATABASE_USER_PASSWORD}
+
+    volumes:
+      - gdg-datavolume:/var/lib/mysql
+
+volumes:
+  gdg-datavolume:
