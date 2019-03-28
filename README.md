@@ -2,9 +2,13 @@
 
 ## Instalação
 ```
+$ bash install.sh
+```
+
+## Configurando
+```
 $ bash configure.sh
 ```
-> Após a instalação, é necessário definir DOCKER_IP com o IP do Docker instalado na máquina.
 
 ## Executando
 ```

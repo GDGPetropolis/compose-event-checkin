@@ -3,3 +3,9 @@
 .idea/*
 
 *.sql
+
+assets/
+assets/*
+
+output/
+output/*
