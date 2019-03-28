@@ -4,7 +4,7 @@
 .idea/
 .idea/*
 
-*.sql
+gdg_database.sql
 
 assets/
 assets/*
